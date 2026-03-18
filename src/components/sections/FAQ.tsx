@@ -6,20 +6,24 @@ import { FadeIn } from '../animations/FadeIn';
 
 const faqs = [
   {
-    question: 'Apakah konsultasinya berbayar?',
-    answer: 'Coach Ferly melakukan screening terlebih dahulu. Diskusi awal tidak dipungut biaya — tujuannya untuk memastikan ini cocok untuk Anda.',
+    question: 'Apa bedanya dengan seminar bisnis pada umumnya?',
+    answer: 'Seminar = teori massal. Di sini Coach Ferly membedah sistem operasional bisnis Anda langsung — cashflow, efisiensi tim, struktur biaya — dan memberikan solusi yang bisa dieksekusi.',
   },
   {
-    question: 'Apakah langsung dengan Coach Ferly?',
-    answer: 'Proses dimulai dengan tim kami untuk kenalan dan diskusi awal. Jika sesuai kriteria, Anda akan dijadwalkan langsung dengan Coach Ferly.',
+    question: 'Kenapa tidak cukup belajar dari YouTube atau buku bisnis?',
+    answer: 'Konten gratis = pengetahuan umum. Coaching ini seperti dokter spesialis — memeriksa langsung operasional bisnis Anda, bukan memberi resep umum.',
   },
   {
-    question: 'Apa bedanya dengan coaching atau seminar lain?',
-    answer: 'Coach Ferly bukan motivational speaker. Fokusnya adalah pada desain sistem bisnis dan eksekusi nyata, bukan sesi motivasi.',
+    question: 'Apa bedanya dengan event motivasi?',
+    answer: 'Motivational event = semangat beberapa hari. Coaching operasional = mengubah cara bisnis berjalan secara permanen — fokus pada sistem, proses, dan angka.',
   },
   {
-    question: 'Berapa lama prosesnya?',
-    answer: 'Dari chat pertama hingga jadwal konsultasi biasanya 2-5 hari kerja, tergantung ketersediaan.',
+    question: 'Kenapa fokusnya operasional, bukan marketing/sales?',
+    answer: 'Bisnis miliaran sudah jago jualan. Masalahnya di belakang layar: cashflow bocor, proses tidak efisien, margin tipis. Di sinilah coaching operasional berdampak terbesar.',
+  },
+  {
+    question: 'Berapa lama sampai terlihat hasilnya?',
+    answer: 'Coaching ini fokus pada perbaikan sistem konkret — banyak klien merasakan perubahan nyata dalam 30-90 hari pertama.',
   },
 ];
 

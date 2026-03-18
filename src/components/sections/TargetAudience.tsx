@@ -6,9 +6,9 @@ import { FadeIn } from '../animations/FadeIn';
 const criteria = [
   'Pemilik bisnis dengan omset miliaran',
   'Omset sudah besar tapi cashflow masih belum sehat',
-  'Operasional sudah jalan tapi belum efisien',
+  'Operasional masih bergantung pada owner, belum berjalan dengan sistem',
   'Ingin bisnis yang benar-benar profitable, bukan hanya besar',
-  'Terbuka untuk dicoaching, bukan hanya mencari motivasi',
+  'Siap dicoaching untuk membangun sistem operasional yang rapi dan terukur',
 ];
 
 const TargetAudience: React.FC = () => {

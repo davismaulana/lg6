@@ -12,13 +12,13 @@ const FinalCTA: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
         <FadeIn direction="up">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
-            Siap Mulai Konsultasi?
+            Siap Benahi Operasional Bisnis Anda?
           </h2>
         </FadeIn>
 
         <FadeIn direction="up" delay={0.2}>
           <p className="text-xl md:text-2xl font-medium text-zinc-600 mb-8">
-            Klik tombol di bawah untuk memulai percakapan dengan tim kami.
+            Mulai dengan diskusi singkat — kami akan bantu identifikasi masalah operasional yang paling kritis di bisnis Anda.
           </p>
         </FadeIn>
 

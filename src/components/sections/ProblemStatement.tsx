@@ -7,24 +7,24 @@ import { motion } from 'framer-motion';
 
 const problems = [
   {
-    icon: TrendingDown,
-    title: 'Cashflow Bocor',
-    desc: 'Omset besar, tapi uang di rekening tidak mencerminkan. Cashflow bocor di sana-sini tanpa terdeteksi.',
-  },
-  {
     icon: Cog,
     title: 'Operasional Chaos',
-    desc: 'Tim sudah banyak, tapi operasional masih berantakan. Banyak proses yang tidak efisien dan makan biaya.',
+    desc: 'Tim sudah banyak, tapi tidak ada SOP yang jelas. Proses tumpang tindih, tugas saling lempar, dan operasional masih bergantung pada owner.',
+  },
+  {
+    icon: TrendingDown,
+    title: 'Cashflow Bocor',
+    desc: 'Omset besar, tapi uang di rekening tidak mencerminkan. Piutang menumpuk, pengeluaran tidak termonitor, cashflow bocor tanpa terdeteksi.',
   },
   {
     icon: Calculator,
     title: 'Profit Tipis',
-    desc: 'Revenue naik tapi margin makin tipis. Biaya operasional terus membengkak tanpa kontrol yang jelas.',
+    desc: 'Revenue naik tapi margin makin tipis. Biaya operasional membengkak karena sistem yang tidak efisien.',
   },
   {
     icon: BarChart3,
     title: 'Scaling = Bleeding',
-    desc: 'Setiap kali mau scale up, cashflow makin ketat. Pertumbuhan justru bikin bisnis makin rentan.',
+    desc: 'Setiap kali mau scale up, sistem tidak siap menopang. Pertumbuhan tanpa fondasi operasional yang solid justru bikin bisnis makin rentan.',
   },
 ];
 

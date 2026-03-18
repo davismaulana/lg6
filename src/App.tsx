@@ -5,7 +5,7 @@ import { Hero } from './components/sections/Hero';
 import { ProblemStatement } from './components/sections/ProblemStatement';
 import { TargetAudience } from './components/sections/TargetAudience';
 import { NotForYou } from './components/sections/NotForYou';
-import { ConsultationProcess } from './components/sections/ConsultationProcess';
+
 import { AboutCoach } from './components/sections/AboutCoach';
 import { FAQ } from './components/sections/FAQ';
 import { FinalCTA } from './components/sections/FinalCTA';
@@ -19,7 +19,7 @@ const App: React.FC = () => {
       <ProblemStatement />
       <TargetAudience />
       <NotForYou />
-      <ConsultationProcess />
+
       <AboutCoach />
       <FAQ />
       <FinalCTA />

@@ -24,8 +24,8 @@ const Hero: React.FC = () => {
 
         <FadeIn direction="up" delay={0.2}>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
-            Konsultasi bisnis eksklusif untuk pemilik usaha beromset miliaran
-            yang ingin memperbaiki operasional dan cashflow agar bisnis benar-benar profitable.
+            Coaching operasional eksklusif untuk pemilik usaha beromset miliaran
+            yang sistem bisnisnya belum serapih omsetnya — cashflow bocor, operasional chaos, profit tidak sebanding.
           </p>
         </FadeIn>
 
