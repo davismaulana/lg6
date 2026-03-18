@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question: 'Kenapa fokusnya operasional, bukan marketing/sales?',
-    answer: 'Bisnis miliaran sudah jago jualan. Masalahnya di belakang layar: cashflow bocor, proses tidak efisien, margin tipis. Di sinilah coaching operasional berdampak terbesar.',
+    answer: 'Bisnis miliaran sudah jago jualan. Masalahnya di belakang layar: operasional chaos, proses tidak efisien, tim tidak mandiri. Di sinilah coaching operasional berdampak terbesar.',
   },
   {
     question: 'Berapa lama sampai terlihat hasilnya?',

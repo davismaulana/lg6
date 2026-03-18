@@ -5,9 +5,9 @@ import { FadeIn } from '../animations/FadeIn';
 
 const criteria = [
   'Pemilik bisnis dengan omset miliaran',
-  'Omset sudah besar tapi cashflow masih belum sehat',
+  'Omset dan cashflow sudah jalan, tapi operasional belum serapih hasilnya',
   'Operasional masih bergantung pada owner, belum berjalan dengan sistem',
-  'Ingin bisnis yang benar-benar profitable, bukan hanya besar',
+  'Ingin bisnis yang bisa jalan tanpa owner harus turun tangan di setiap detail',
   'Siap dicoaching untuk membangun sistem operasional yang rapi dan terukur',
 ];
 

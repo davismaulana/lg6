@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '../ui/Card';
-import { TrendingDown, Cog, Calculator, BarChart3 } from 'lucide-react';
+import { UserX, Cog, Users, BarChart3 } from 'lucide-react';
 import { FadeIn } from '../animations/FadeIn';
 import { StaggerContainer } from '../animations/StaggerContainer';
 import { motion } from 'framer-motion';
@@ -12,19 +12,19 @@ const problems = [
     desc: 'Tim sudah banyak, tapi tidak ada SOP yang jelas. Proses tumpang tindih, tugas saling lempar, dan operasional masih bergantung pada owner.',
   },
   {
-    icon: TrendingDown,
-    title: 'Cashflow Bocor',
-    desc: 'Omset besar, tapi uang di rekening tidak mencerminkan. Piutang menumpuk, pengeluaran tidak termonitor, cashflow bocor tanpa terdeteksi.',
+    icon: UserX,
+    title: 'Owner = Bottleneck',
+    desc: 'Bisnis sudah besar, tapi semua keputusan masih lewat Anda. Tanpa Anda, operasional berhenti — dan itu bukan tanda sukses, itu tanda sistem belum jadi.',
   },
   {
-    icon: Calculator,
-    title: 'Profit Tipis',
-    desc: 'Revenue naik tapi margin makin tipis. Biaya operasional membengkak karena sistem yang tidak efisien.',
+    icon: Users,
+    title: 'Tim Tidak Mandiri',
+    desc: 'Karyawan banyak, tapi produktivitas rendah. Tidak ada struktur yang jelas, KPI tidak terukur, dan hasilnya: biaya SDM tinggi tanpa output yang sebanding.',
   },
   {
     icon: BarChart3,
-    title: 'Scaling = Bleeding',
-    desc: 'Setiap kali mau scale up, sistem tidak siap menopang. Pertumbuhan tanpa fondasi operasional yang solid justru bikin bisnis makin rentan.',
+    title: 'Scaling Tanpa Fondasi',
+    desc: 'Setiap kali mau scale up, chaos makin parah. Pertumbuhan tanpa fondasi operasional yang solid justru bikin bisnis makin rapuh.',
   },
 ];
 

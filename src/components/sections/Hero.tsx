@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
             <span className="text-white">Omset Sudah Miliaran.</span>
             <br />
             <span className="bg-gradient-to-r from-gold-300 via-gold-500 to-gold-300 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-              Tapi Kenapa Cashflow Masih Sering Minus?
+              Tapi Kenapa Operasional Masih Berantakan?
             </span>
           </h1>
         </FadeIn>
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         <FadeIn direction="up" delay={0.2}>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
             Coaching operasional eksklusif untuk pemilik usaha beromset miliaran
-            yang sistem bisnisnya belum serapih omsetnya — cashflow bocor, operasional chaos, profit tidak sebanding.
+            yang bisnisnya sudah menghasilkan — tapi di balik layar, tim chaos, proses tidak efisien, dan owner masih turun tangan di semua hal.
           </p>
         </FadeIn>
 

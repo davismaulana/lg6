@@ -33,7 +33,7 @@ const AboutCoach: React.FC = () => {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-center gap-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-gold-500 flex-shrink-0" />
-                    Berfokus membangun sistem operasional yang rapi — dari cashflow, tim, sampai proses bisnis
+                    Berfokus membangun sistem operasional yang rapi — dari struktur tim, proses bisnis, sampai efisiensi operasional
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-gold-500 flex-shrink-0" />
