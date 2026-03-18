@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+@theme {
+  --color-gold-200: #F3E0B5;
+  --color-gold-300: #ECD49A;
+  --color-gold-400: #E5C88A;
+  --color-gold-500: #D4AF6A;
+  --color-gold-600: #C9A05F;
+  --color-gold-700: #B8860B;
+
+  --color-dark-850: #111827;
+  --color-dark-800: #1A1A1A;
+  --color-dark-700: #1F2937;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 6s ease infinite;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}

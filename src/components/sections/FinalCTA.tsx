@@ -1,0 +1,46 @@
+import React from 'react';
+import { Button } from '../ui/Button';
+import { ArrowRight } from 'lucide-react';
+import { FadeIn } from '../animations/FadeIn';
+import { CTA_URL } from '../../lib/constants';
+
+const FinalCTA: React.FC = () => {
+  return (
+    <section className="py-24 bg-[#E5DBC7] text-zinc-900 overflow-hidden relative">
+      <div className="absolute top-0 left-0 w-64 h-64 bg-white/20 rounded-full blur-[50px] pointer-events-none" />
+
+      <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
+        <FadeIn direction="up">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+            Siap Mulai Konsultasi?
+          </h2>
+        </FadeIn>
+
+        <FadeIn direction="up" delay={0.2}>
+          <p className="text-xl md:text-2xl font-medium text-zinc-600 mb-8">
+            Klik tombol di bawah untuk memulai percakapan dengan tim kami.
+          </p>
+        </FadeIn>
+
+        <FadeIn direction="up" delay={0.4}>
+          <div className="flex flex-col items-center">
+            <Button
+              variant="primary"
+              size="lg"
+              className="text-xl px-12 py-8 rounded-full shadow-2xl hover:shadow-gold-600/20 transform hover:-translate-y-1 transition-all mb-6"
+              onClick={() => window.open(CTA_URL, '_blank')}
+            >
+              Mulai Konsultasi <ArrowRight className="ml-2 w-6 h-6" />
+            </Button>
+
+            <p className="text-zinc-500 font-medium">
+              Anda akan terhubung via WhatsApp
+            </p>
+          </div>
+        </FadeIn>
+      </div>
+    </section>
+  );
+};
+
+export { FinalCTA };
