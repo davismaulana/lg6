@@ -43,6 +43,14 @@ const AboutCoach: React.FC = () => {
                     <span className="w-1.5 h-1.5 rounded-full bg-gold-500 flex-shrink-0" />
                     Membangun bisnis yang profitable dan scalable melalui perbaikan operasional
                   </li>
+                  <li className="flex items-center gap-3">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold-500 flex-shrink-0" />
+                    Former VP di Perusahaan Teknologi & IT Multinasional
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold-500 flex-shrink-0" />
+                    Peraih <strong className="text-gold-400">Guinness World Record 2023</strong> dari salah satu unit bisnis
+                  </li>
                 </ul>
 
                 <p className="text-gold-500/80 italic text-sm mt-6 text-center">
